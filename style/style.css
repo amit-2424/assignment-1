@@ -160,16 +160,18 @@ section.date button {
 }
 
 /* best offer section */
-.best-off-wrap{
+.best-off-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
 }
-.best-off-single{
+
+.best-off-single {
     width: 33.33%;
 }
-.best-off-single:first-child h4{
+
+.best-off-single:first-child h4 {
     font-size: 20px;
     font-family: Inter;
     color: #F00;
@@ -177,30 +179,131 @@ section.date button {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.best-off-single:first-child h2{
+
+.best-off-single:first-child h2 {
     font-size: 30px;
     margin-bottom: 20px;
 }
-.best-off-single:first-child p{
+
+.best-off-single:first-child p {
     font-family: Inter;
 }
 
-.best-off-img img{
+.best-off-img img {
     border-radius: 100%;
     border: 20px solid white;
 
 }
+
 .best-off-img {
     border-radius: 100%;
     border: 10px solid #F00;
 }
 
-.best-off-single:last-child h2{
+.best-off-single:last-child h2 {
     font-size: 25px;
     color: #F00;
     margin-bottom: 20px;
 }
-.best-off-single:last-child p{
+
+.best-off-single:last-child p {
     font-family: Inter;
     margin-bottom: 20px;
+}
+
+/* discount section */
+.disount-img-container {
+    background-image: url(../resources/Rectangle\ 2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.discount-img-left {
+    width: 50%;
+    float: left;
+}
+
+.discount-img-right {
+    width: 50%;
+    float: right;
+    padding-bottom: 191px;
+    padding-left: 191px;
+}
+
+.discount-img-midel {
+    position: absolute;
+    padding-left: 360px;
+    padding-bottom: 150px;
+}
+
+.discount-title h6 {
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.discount-img-left {
+    width: 50%;
+    float: left;
+}
+
+.discount-img-right {
+    width: 50%;
+    float: right;
+    padding-bottom: 191px;
+    padding-left: 191px;
+}
+
+.discount-img-midel {
+    position: absolute;
+    padding-left: 360px;
+    padding-bottom: 150px;
+}
+
+.discount-title h6 {
+    text-align: center;
+}
+
+.discount-title h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 35px;
+}
+
+.discount-title h2 span {
+    color: #F00;
+}
+
+.discount-title p {
+    text-align: center;
+    font-family: 'Inter';
+    padding: 0 22%;
+}
+
+/* protfolleo section */
+.portfolio-img-single {
+    width: 398px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolio-img-single img {
+    width: 100%;
+}
+
+.portfolio-img-single:nth-child(3) {
+    margin-right: 0px;
+}
+
+.portfolio-img-single:last-child {
+    margin-right: 0px;
 }
